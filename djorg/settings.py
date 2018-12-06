@@ -28,7 +28,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', cast=bool)
 
-ALLOWED_HOSTS = [".django-test-heroku.com"]
+ALLOWED_HOSTS = ["https://django-test-heroku.herokuapp.com"]
 
 CORS_ORIGIN_ALLOW_ALL = True
 
